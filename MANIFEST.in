@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include lwp_mgmt *.css
+recursive-include lwp_mgmt *.csv
+recursive-include lwp_mgmt *.html
+recursive-include lwp_mgmt *.ico
+recursive-include lwp_mgmt *.js
+recursive-include lwp_mgmt *.json
+recursive-include lwp_mgmt *.md
+recursive-include lwp_mgmt *.png
+recursive-include lwp_mgmt *.py
+recursive-include lwp_mgmt *.svg
+recursive-include lwp_mgmt *.txt
+recursive-exclude lwp_mgmt *.pyc
